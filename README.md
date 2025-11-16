@@ -2,6 +2,14 @@
 
 A comprehensive, production-ready quantitative ML trading system with enterprise-grade risk management, backtesting, and performance analysis.
 
+[![CI](https://github.com/shiong-tan/quantml-trader/actions/workflows/ci.yml/badge.svg)](https://github.com/shiong-tan/quantml-trader/actions/workflows/ci.yml)
+[![Pre-commit](https://github.com/shiong-tan/quantml-trader/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/shiong-tan/quantml-trader/actions/workflows/pre-commit.yml)
+[![codecov](https://codecov.io/gh/shiong-tan/quantml-trader/branch/main/graph/badge.svg)](https://codecov.io/gh/shiong-tan/quantml-trader)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
 ## 🎯 Overview
 
 This system transforms a basic prediction-based trading strategy into a production-ready trading platform with:
@@ -375,7 +383,7 @@ Contributions welcome! Please:
 
 ## 📄 License
 
-MIT License - see LICENSE file for details
+AGPL-3.0 License - see LICENSE file for details
 
 ## 📧 Contact
 

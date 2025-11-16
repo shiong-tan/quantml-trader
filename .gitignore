@@ -79,3 +79,60 @@ Thumbs.db
 tmp/
 temp/
 *.tmp
+
+# =====================================
+# QuantML-Trader Specific
+# =====================================
+
+# Interactive Brokers
+*.tws/
+*.ibgateway/
+jts.ini
+jts/*.jar
+*.ibd
+
+# Trading results and reports
+results/
+backtests/
+paper_trading/
+live_trading/
+reports/
+*.trade.log
+
+# Performance visualizations
+plots/
+*.png
+*.jpg
+*.jpeg
+!docs/assets/*.png
+!docs/assets/*.jpg
+
+# Backtest artifacts
+backtest_*.pkl
+backtest_*.json
+performance_*.csv
+
+# Live trading state
+trading_state.json
+positions.json
+orders.json
+
+# Pre-commit cache
+.secrets.baseline
+
+# Coverage reports
+coverage.xml
+.coverage.*
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Monitoring
+monitoring/
+dashboards/
+
+# Database files (future)
+*.db
+*.sqlite
+*.sqlite3
